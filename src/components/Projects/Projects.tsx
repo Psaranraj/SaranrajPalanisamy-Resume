@@ -1,30 +1,25 @@
-import "./Projects.css";
 import resumeData from "../../data/resumeData.json";
 
+// "Project name | tech stack" followed by its bullet points.
 function Projects() {
   return (
-    <div className="projects">
-
+    <section className="section">
       <h2>Projects</h2>
 
-      <hr />
-
       {resumeData.projects.map((project) => (
-        <div className="project-item" key={project.name}>
-
-          <h3>{project.name}</h3>
-          <p className="tech">{project.tech}</p>
+        <div className="entry" key={project.name}>
+          <p className="line">
+            <strong>{project.name}</strong> | {project.tech}
+          </p>
 
           <ul>
             {project.points.map((point) => (
               <li key={point}>{point}</li>
             ))}
           </ul>
-
         </div>
       ))}
-
-    </div>
+    </section>
   );
 }
 

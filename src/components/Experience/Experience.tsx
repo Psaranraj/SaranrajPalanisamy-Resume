@@ -1,40 +1,25 @@
-import "./Experience.css";
 import resumeData from "../../data/resumeData.json";
 
+// "Role | Company | Duration" followed by its bullet points.
 function Experience() {
   return (
-    <div className="experience">
-
+    <section className="section">
       <h2>Experience and Training</h2>
 
-      <hr />
-
       {resumeData.experience.map((item) => (
-        <div className="experience-item" key={item.company}>
+        <div className="entry" key={item.role}>
+          <p className="line">
+            <strong>{item.role}</strong> | {item.company} | {item.duration}
+          </p>
 
-          <div className="experience-header">
-
-        <div>
-            <h3>{item.company}</h3>
-            <h4>{item.role}</h4>
+          <ul>
+            {item.points.map((point) => (
+              <li key={point}>{point}</li>
+            ))}
+          </ul>
         </div>
-
-        <p className="duration">
-            {item.duration}
-        </p>
-
-        </div>
-
-        <ul>
-          {item.points.map((point) => (
-            <li key={point}>{point}</li>
-          ))}
-        </ul>
-
-            </div>
-        ))}
-
-    </div>
+      ))}
+    </section>
   );
 }
 

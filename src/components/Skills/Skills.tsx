@@ -1,22 +1,17 @@
-import "./Skills.css";
 import resumeData from "../../data/resumeData.json";
 
+// One line per group, e.g. "Frontend: HTML, CSS, ..."
 function Skills() {
   return (
-    <div className="skills">
-
+    <section className="section">
       <h2>Technical Skills</h2>
 
-      <hr />
-
       {resumeData.skills.map((group) => (
-        <div className="skill-group" key={group.category}>
-          <h4>{group.category}</h4>
-          <p>{group.items}</p>
-        </div>
+        <p className="line" key={group.category}>
+          <strong>{group.category}:</strong> {group.items}
+        </p>
       ))}
-
-    </div>
+    </section>
   );
 }
 
