@@ -5,7 +5,7 @@ function Profile() {
   return (
     <div className="profile">
 
-      <h2>Profile</h2>
+      <h2>Professional Summary</h2>
 
       <hr />
 

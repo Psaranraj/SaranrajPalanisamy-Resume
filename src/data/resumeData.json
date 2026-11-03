@@ -4,7 +4,6 @@
     "title": "Full Stack Web Developer | React.js | Node.js | TypeScript",
     "image": "profile.png"
   },
-
   "contact": {
     "phone": "+91 63749 23042",
     "email": "saranraj7299844@gmail.com",
@@ -12,9 +11,7 @@
     "github": "github.com/Psaranraj",
     "linkedin": "linkedin.com/in/saran-raj-74030a298"
   },
-
   "profile": "Entry-level Full Stack Web Developer with 3 completed projects using React.js, TypeScript, Node.js, Express.js and MySQL. Built LearnHub, a full stack Learning Management System with role-based access, a modular REST API and Prisma ORM in an Nx monorepo. Currently completing Full Stack Web Development with AI training at Growmindz. Seeking a Junior Full Stack Developer or React Developer role.",
-
   "skills": [
     {
       "category": "Frontend",
@@ -37,18 +34,10 @@
       "items": "Git, GitHub, VS Code, Nx, pnpm, JSON Server"
     }
   ],
-
   "languages": [
     "Tamil",
     "English"
   ],
-
-  "hobbies": [
-    "Coding",
-    "Reading",
-    "Music"
-  ],
-
   "projects": [
     {
       "name": "LearnHub - Learning Management System",
@@ -79,7 +68,6 @@
       ]
     }
   ],
-
   "experience": [
     {
       "company": "Growmindz",
@@ -106,7 +94,6 @@
       ]
     }
   ],
-
   "education": [
     {
       "degree": "B.Tech, Information Technology",
