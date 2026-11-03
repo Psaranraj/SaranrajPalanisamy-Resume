@@ -1,0 +1,23 @@
+.profile{
+    margin-bottom:30px;
+}
+
+.profile h2{
+    margin:0;
+    font-size:20px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.profile hr{
+    margin:10px 0 20px;
+    border:none;
+    border-top:2px solid #000;
+}
+
+.profile p{
+    margin:0;
+    font-size:14px;
+    line-height:1.8;
+    text-align:justify;
+}

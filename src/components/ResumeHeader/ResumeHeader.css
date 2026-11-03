@@ -1,0 +1,19 @@
+.resume-header{
+    text-align: left;
+    margin-bottom:40px;
+}
+
+.resume-header h1{
+    margin:0;
+    font-size:36px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+
+.resume-header h3{
+    margin-top:10px;
+    font-size:18px;
+    font-weight:400;
+    text-transform:uppercase;
+    color:#666;
+}

@@ -1,0 +1,130 @@
+{
+  "personalInfo": {
+    "name": "Saranraj P",
+    "title": "Full Stack Web Developer | React.js | Node.js | TypeScript",
+    "image": "profile.png"
+  },
+
+  "contact": {
+    "phone": "+91 63749 23042",
+    "email": "saranraj7299844@gmail.com",
+    "location": "Namakkal, Tamil Nadu, India",
+    "github": "github.com/Psaranraj",
+    "linkedin": "linkedin.com/in/saran-raj-74030a298"
+  },
+
+  "profile": "Entry-level Full Stack Web Developer with 3 completed projects using React.js, TypeScript, Node.js, Express.js and MySQL. Built LearnHub, a full stack Learning Management System with role-based access, a modular REST API and Prisma ORM in an Nx monorepo. Currently completing Full Stack Web Development with AI training at Growmindz. Seeking a Junior Full Stack Developer or React Developer role.",
+
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": "HTML, CSS, JavaScript, TypeScript, React.js, Vite, Tailwind CSS, Zustand, Context API, Axios, Bootstrap"
+    },
+    {
+      "category": "Backend",
+      "items": "Node.js, Express.js, REST APIs, Zod, Passport.js, Python"
+    },
+    {
+      "category": "Database",
+      "items": "MySQL, Prisma (ORM), Sequelize (ORM), SQL"
+    },
+    {
+      "category": "Concepts",
+      "items": "MVC, Role-based Access Control, CRUD, Session-based Authentication, Monorepo, OOP"
+    },
+    {
+      "category": "Tools",
+      "items": "Git, GitHub, VS Code, Nx, pnpm, JSON Server"
+    }
+  ],
+
+  "languages": [
+    "Tamil",
+    "English"
+  ],
+
+  "hobbies": [
+    "Coding",
+    "Reading",
+    "Music"
+  ],
+
+  "projects": [
+    {
+      "name": "LearnHub - Learning Management System",
+      "tech": "React.js, TypeScript, Tailwind CSS, Node.js, Express.js, Prisma, MySQL, Nx",
+      "points": [
+        "Built a full stack LMS with role-based access for students, instructors and admins, each with a separate dashboard and protected routes, plus a public course catalog.",
+        "Structured the codebase as an Nx monorepo (pnpm) with a React web app, an Express API and a shared package of TypeScript types and Zod schemas; managed client state with Zustand and API calls through a central Axios client.",
+        "Designed a modular REST API where each module (auth, courses, enrollments, quizzes, assignments, certificates) has its own routes, controller, service and validation, using Prisma with MySQL.",
+        "Implemented course enrollment, lesson progress tracking, quizzes and assignment submission, with certificates issued automatically on assignment completion."
+      ]
+    },
+    {
+      "name": "Student Management System",
+      "tech": "React.js, Node.js, Express.js, MySQL, Sequelize, Passport.js",
+      "points": [
+        "Built a full stack student management app with MVC architecture and REST APIs.",
+        "Implemented register, login and logout using Passport.js session-based authentication.",
+        "Developed add, view, edit, delete and search features for student records using Sequelize ORM on a MySQL database."
+      ]
+    },
+    {
+      "name": "NexBuy - E-commerce Web Application",
+      "tech": "React.js, TypeScript, React Bootstrap, JSON Server, React Context API",
+      "points": [
+        "Built an e-commerce web interface for browsing and managing products using React.js and TypeScript.",
+        "Integrated JSON Server as a mock REST backend to support full CRUD operations on products.",
+        "Centralized application state with React Context API, giving components shared data and a consistent user experience."
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "Growmindz",
+      "role": "Full Stack Web Development with AI Training",
+      "duration": "March 2026 - Present",
+      "points": [
+        "Training in full stack development (React.js, TypeScript, Node.js, Express.js, MySQL, Sequelize, Prisma), applying MVC, REST API design and authentication in projects including LearnHub and a Student Management System."
+      ]
+    },
+    {
+      "company": "Accord Info Matrix, Chennai",
+      "role": "Python and SQL Training",
+      "duration": "June 2025 - September 2025",
+      "points": [
+        "Learned Python fundamentals (loops, functions, OOP) and SQL (table creation, CRUD, filtering, queries)."
+      ]
+    },
+    {
+      "company": "E-Soft IT Solution",
+      "role": "Web Development Intern",
+      "duration": "January 2024 - February 2024",
+      "points": [
+        "Built frontend web pages with HTML, CSS and JavaScript through project-based learning."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech, Information Technology",
+      "college": "Gnanamani College of Technology",
+      "year": "2021 - 2025",
+      "percentage": "71.9%"
+    },
+    {
+      "degree": "Higher Secondary Certificate (HSC)",
+      "college": "Bommampatty Higher Secondary School",
+      "year": "2019 - 2021",
+      "percentage": "75.45%"
+    },
+    {
+      "degree": "Secondary School Leaving Certificate (SSLC)",
+      "college": "Bommampatty Higher Secondary School",
+      "year": "2018 - 2019",
+      "percentage": "68%"
+    }
+  ]
+}

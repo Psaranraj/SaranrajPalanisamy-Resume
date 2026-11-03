@@ -1,0 +1,40 @@
+.skills{
+    margin-bottom:30px;
+    text-align: justify;
+}
+
+.skills h2{
+    margin:0;
+    font-size:20px;
+    text-transform:capitalize;
+    color: white;
+}
+
+.skills hr{
+    margin:10px 0 20px;
+    border:none;
+    border-top:3px solid white;
+    width: 80px;
+}
+
+.skill-item{
+    margin-bottom:10px;
+    font-size:14px;
+}
+
+.skill-group{
+    margin-bottom:14px;
+}
+
+.skill-group h4{
+    margin:0;
+    font-size:15px;
+    color:white;
+}
+
+.skill-group p{
+    margin:4px 0 0;
+    font-size:13px;
+    color:#e5e5e5;
+    line-height:1.5;
+}

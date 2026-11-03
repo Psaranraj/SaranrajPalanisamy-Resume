@@ -1,0 +1,41 @@
+.projects {
+    margin-bottom: 30px;
+}
+
+.projects h2 {
+    margin: 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.projects hr {
+    margin: 10px 0 20px;
+    border: none;
+    border-top: 2px solid #000;
+}
+
+.project-item {
+    margin-bottom: 25px;
+}
+
+.project-item h3 {
+    margin: 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.project-item .tech {
+    margin: 6px 0 0;
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+}
+
+.project-item ul {
+    margin: 8px 0 0;
+    padding-left: 18px;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+}
